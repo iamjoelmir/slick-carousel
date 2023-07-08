@@ -100,8 +100,7 @@
 }
 .slick-initialized .slick-slide
 {
-    display: block;
-    visibility: hidden;
+    display: none;
 }
 .slick-loading .slick-slide
 {
