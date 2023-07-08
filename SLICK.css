@@ -57,23 +57,6 @@
     margin-right: auto;
 }
 
-.slick-track:before,
-.slick-track:after
-{
-    display: table;
-    content: '';
-}
-
-.slick-track:after
-{
-    clear: both;
-}
-
-.slick-loading .slick-track
-{
-    visibility: hidden;
-}
-
 .slick-slide
 {
     display: none;
@@ -119,6 +102,10 @@
     border: 1px solid transparent;
 }
 
-.slick-arrow.slick-hidden {
-    display: none;
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-hidden {
+    display: none !important;
 }
