@@ -54,16 +54,16 @@
     top: 0;
     left: 0;
 
-    display: none;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
 .slick-track:before,
 .slick-track:after
 {
-    display: none;
+    display: table;
 
-    content: none;
+    content: '';
 }
 .slick-track:after
 {
