@@ -1,0 +1,122 @@
+
+/* Controle deslizante */
+.slick-slider
+{
+    posição: relativa;
+
+    exibição: bloco;
+    box-sizing: border-box;
+
+    -webkit-user-select: nenhum;
+       -moz-user-select: nenhum;
+        -ms-user-select: nenhum;
+            seleção de usuário: nenhum;
+
+    -webkit-touch-callout: nenhum;
+    -khtml-user-select: nenhum;
+    -ms-touch-action: panorâmico-y;
+        ação de toque: pan-y;
+    -webkit-tap-highlight-color: transparente;
+}
+
+.slick-list
+{
+    posição: relativa;
+
+    exibição: bloco;
+    estouro: oculto;
+
+    margem: 0;
+    preenchimento: 0;
+}
+.slick-list:foco
+{
+    contorno: nenhum;
+}
+.slick-list.dragging
+{
+    cursor: ponteiro;
+    cursor: mão;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    posição: relativa;
+    superior: 0;
+    esquerda: 0;
+
+    exibição: bloco;
+    margem esquerda: auto;
+    margem direita: auto;
+}
+.slick-track:antes,
+.slick-track:depois 
+{
+    display: none;  
+
+    exibição: tabela;
+
+    contente: '';
+}
+.slick-track:depois
+{
+    limpar ambos;
+}
+.slick-loading .slick-track
+{
+    visibilidade: oculta;
+}
+
+.slick-slide
+{
+    Mostrar nenhum;
+    flutuar: esquerda;
+
+    altura: 100%;
+    altura mínima: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    flutuar: direita;
+}
+.slick-slide img
+{
+    exibição: bloco;
+}
+.slick-slide.slick-loading img
+{
+    Mostrar nenhum;
+}
+.slick-slide.dragging img
+{
+    eventos de ponteiro: nenhum;
+}
+.slick-inicializado .slick-slide
+{
+    exibição: bloco;
+}
+.slick-loading .slick-slide
+{
+    visibilidade: oculta;
+}
+.slick-vertical .slick-slide
+{
+    exibição: bloco;
+
+    altura: automático;
+
+    borda: 1px sólido transparente;
+}
+.slick-arrow.slick-hidden {
+    Mostrar nenhum;
+}
