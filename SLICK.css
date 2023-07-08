@@ -62,8 +62,6 @@
 .slick-track:antes,
 .slick-track:depois 
 {
-    display: true;  
-
     exibição: tabela;
 
     contente: '';
